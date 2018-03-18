@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Overview
---------
+What is Karaage?
+----------------
+Karaage is a cluster account management tool. It can manage users and projects
+in a cluster and can store the data in various backends.
 
-Karaage manages users and projects in a cluster and can store the data in
-various backends.
 
 Features
 --------
@@ -19,37 +19,6 @@ Features
 * Usage reporting. Report on a per institute, per project or per user for CPU usage.
 * Track usage of software and versions. Keep track of what software (and version) and type of jobs a user
 
-Admin access
-------------
-When an administrator logs into karaage, they can do the following:
-
-* See/modify information about all users/projects/institutes/applications/usage etc.
-* Many changes are logged.
-* Anything a normal user can.
-
-User access
------------
-When a normal user logs into Karaage (or an administrator), they can do the
-following.
-
-Allows users to:
-
-* Modify their own account.
-* Change password.
-* Manage what projects they are in.
-
-Allow project leaders to:
-
-* Approve/Decline applications to join their project.
-* Reset passwords for their members.
-* Track their resource utilisation and software utilisation.
-
-Allow institute delegates to:
-
-* Approve/Decline new project applications.
-* Manage all projects and users under the institute.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
 Documentation
 -------------
@@ -57,6 +26,14 @@ Documentation
 * [Karaage 3.x User documentation](http://karaage.readthedocs.org/projects/karaage-user/en/latest/)
 * [Karaage 3.x Programmer documentation](http://karaage.readthedocs.org/projects/karaage-programmer/en/latest/)
 * [Karaage 3.x Admin documentation](http://karaage.readthedocs.org/en/latest/)
+
+
+Support
+-------
+
+* [Mailing list](https://groups.google.com/d/forum/karaage-users)
+* [Bug reports](https://github.com/Karaage-Cluster/karaage/issues)
+
 
 Source code
 -----------
