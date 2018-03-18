@@ -4,6 +4,12 @@ title: About
 permalink: /about/
 ---
 
+Overview
+--------
+
+Karaage manages users and projects in a cluster and can store the data in
+various backends.
+
 Features
 --------
 * Can store user information and/or posix account information in LDAP/Active Directory/passwd file.
@@ -45,8 +51,16 @@ Allow institute delegates to:
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-Links
------
-You can find the source code for Karaage at
+Documentation
+-------------
+
+* [Karaage 3.x User documentation](http://karaage.readthedocs.org/projects/karaage-user/en/latest/)
+* [Karaage 3.x Programmer documentation](http://karaage.readthedocs.org/projects/karaage-programmer/en/latest/)
+* [Karaage 3.x Admin documentation](http://karaage.readthedocs.org/en/latest/)
+
+Source code
+-----------
+Karaage is open source code and available under the GPL3 license.  You can find
+the source code for Karaage at
 {% include icon-github.html username="Karaage-Cluster" %} /
 [karaage](https://github.com/Karaage-Cluster/karaage/)
