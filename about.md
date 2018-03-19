@@ -4,6 +4,9 @@ media: About
 permalink: /about/
 ---
 
+About Karaage
+=============
+
 What is Karaage?
 ----------------
 Karaage is a cluster account management tool. It can manage users and projects

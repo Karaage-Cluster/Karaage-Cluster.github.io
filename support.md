@@ -4,6 +4,9 @@ media: About
 permalink: /support/
 ---
 
+Karaage Support
+===============
+
 Documentation
 -------------
 
