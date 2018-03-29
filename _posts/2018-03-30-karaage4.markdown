@@ -1,0 +1,62 @@
+---
+layout: article
+title:  "Karaage 4"
+date:   2018-03-30 10:00:00 +1100
+comments: true
+---
+
+Karaage 4
+=========
+In late 2014, VLCSI encountered restrictions in the way Karaage tracks
+usage information. Karaage had been developed based on requirements from VPAC,
+and the requirements of VLSCI were very different. In short, Karaage didn't
+meet the needs of VLSCI.
+
+VLSCI contracted Common Code to rectify the situation. This development effort
+was lead by Tyson Clugg, who developed new DB tables to make indexing and
+retrieval of the usage information more flexible and faster.
+
+Unfortunately, after about 2 months of development effort, the funding ran dry.
+The new DB models were developed, but the views were never updated to make use
+of these new models. The work was copied to the `karaage4` branch in the main
+Karaage repository, but was not included in the recent Karaage 5 release.
+
+This is a short description of some of the key changes that were made in the
+karaage4 branch, in case this project is ever resurrected.
+
+New Database Tables
+-------------------
+* Make projects a hierarchy list.
+* New CareerLevel table. Every person has a career level.
+* New ProjectLevel table. Every project membership has a project level.
+* New usage table to record aggregated usage.
+* ResourceUnits, ResurcePool, Resource.
+
+
+Resources
+---------
+A resource is a measurable attribute on a given machine. For example, it
+could be disk space or CPU time. A resource can have a scaling factor, so it
+can be scaled if required to ensure fairness between different machines with
+different capabilities.
+
+A resource belongs to a resource pools. A resource pool defines a set of
+resources that can be grouped together. For example, disk space on /home for
+all clusters. The resource pool also defines the units for the resource (e.g.
+megabytes) and a function that should be used for aggregating results (e.g.
+megabytes).
+
+
+Usage
+-----
+All usage is initially written to the CPUJob table, same as currently.
+However it is also written to the new Usage table, that aggregates results
+and speeds up accesses.
+
+
+Conclusion
+----------
+This is a summary of the changes that were implemented, but never finished in
+Karaage 4.  It is mostly from my memory combined with a quick review of the
+code, so errors might exist. I will update this post with new details as I
+remember them.
