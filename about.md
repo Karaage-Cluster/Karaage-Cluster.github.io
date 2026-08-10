@@ -7,6 +7,12 @@ permalink: /about/
 About Karaage
 =============
 
+Deprecated
+----------
+This project will no longer be used after early July, and will be marked as archived. This is not due to any problems with the project as such. It is still a good solution for the problem it is intended to solve.
+
+If you want to use it, please [contact Brian May](https://github.com/brianmay/ama/discussions).
+
 What is Karaage?
 ----------------
 Karaage is a cluster account management tool. It can manage users and projects
